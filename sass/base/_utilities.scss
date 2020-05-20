@@ -1,0 +1,60 @@
+.u-center-text{
+    text-align: center;
+}
+
+.u-left-text {
+    @media screen and (min-width: $bp-medium) {
+        text-align: left;
+    }
+}
+.u-mb-huge {
+    margin-bottom: 10rem;
+}
+
+.u-mb-big {
+    margin-bottom: 8rem;
+    @include respond(tab-port){
+        margin-bottom: 5rem;
+    }
+}
+.u-mb-medium {
+    margin-bottom: 4rem;
+    @include respond(tab-port){
+        margin-bottom: 3rem;
+    }
+}
+.u-mb-small {
+    margin-bottom: 1.5rem;
+}
+
+.bg-grey {
+    background-color: $clr-light-grayish-blue;
+}
+
+.show-sm {
+    display: block;
+}
+
+.hide-sm {
+    display: none;
+}
+
+.show-large {
+    display: block;
+}
+
+.hide-large {
+    display: none;
+}
+
+// .section-heading {
+//     text-align: center;
+// }
+
+.container {
+ max-width: $max-width-large;
+ width: 90%;
+ margin: 0 auto;
+}
+
+

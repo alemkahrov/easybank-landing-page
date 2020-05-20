@@ -1,0 +1,40 @@
+{
+  "name": "sass-boilerplate-adv",
+  "version": "1.0.0",
+  "description": "This is advance sass-boilerplate with some basic folder stricture and some most used mixins and variables with handy script",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "node scripts/start.js",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "build": "node scripts/build.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alemkahrov/easybank-landing-page.git"
+  },
+  "keywords": [
+    "sass",
+    "css-preporsessor"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "clean-css": "^4.2.1",
+    "concat": "^1.0.3",
+    "globby": "^9.2.0",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^4.1.1",
+    "uglify-es": "^3.3.9",
+    "uglify-js": "^3.6.0"
+  },
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/midnightgamer/sass-boilerplate/issues"
+  },
+  "homepage": "https://github.com/midnightgamer/sass-boilerplate#readme"
+}

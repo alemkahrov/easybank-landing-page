@@ -1,0 +1,39 @@
+$default-font-size:1.6rem;
+
+// Headings font family
+$ff-headings: 'Space Mono', monospace;
+
+// Regular font family
+$ff-body: 'Public Sans', sans-serif;
+
+
+
+// Primary Colors
+$clr-dark-blue: hsl(233, 26%, 24%);
+$clr-green: hsl(136, 65%, 51%);
+$clr-bright-cyan: hsl(192, 70%, 51%);
+
+// Neutral Colors
+$clr-grayish-blue: hsl(233, 8%, 62%);
+$clr-light-grayish-blue: hsl(220, 16%, 96%);
+$clr-verylight-gray: hsl(0, 0%, 98%);
+$clr-white: #fff;
+
+
+
+// Container's maximum width for large screens (+ padding left + padding right)
+$max-width-large: 1440px;
+
+
+
+// Breakpoints
+  $bp-small: 375px;
+  $bp-600: 600px;
+  $bp-medium: 768px;
+  $bp-large: 1024px;
+  $bp-xlarge: 1454px;
+
+
+  
+// Standard transition time for all active states
+  $transition: 0.2s ease-out;

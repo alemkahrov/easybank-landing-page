@@ -1,0 +1,44 @@
+.articles {
+ padding: 95px 0;
+ .articles-inner {
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 40px;
+
+  @media screen and (min-width: $bp-600) {
+   grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+   grid-column-gap: 27px;
+  }
+  .article {
+   img {
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    }
+   .article-body {
+    padding: 20px;
+    .author {
+     font-size: 10px;
+     margin-bottom: 7px;
+    }
+    h4 {
+     transition: $transition;
+     &:hover,
+     &:focus {
+      color: $clr-green;
+     }
+    }
+    p {
+     font-size: 12px;
+     line-height: 1.5;
+    }
+    p,
+    .author {
+     opacity: 0.7;
+    }
+   }
+  }
+ }
+}
